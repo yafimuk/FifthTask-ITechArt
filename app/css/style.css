@@ -1,0 +1,109 @@
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #141823;
+    overflow-x: hidden;
+    background-image: url(../images/bg_icon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+div
+{
+    display:block;
+}
+
+.mainheader
+{  
+    background-color: #24D25E;
+}
+
+
+.topnav a
+{
+    color : yellow;
+    font-size: 15px;
+    float:left;
+    padding-top : 2%;
+    padding-bottom: 2%;
+}
+
+.chatGroup{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chatInput{
+    border:1px solid grey;
+    width: 20%;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.addButton{
+    margin-top:2%;
+}
+
+.btn{
+    background-color: #ffc;
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+
+.modal-content{
+bottom:auto;
+left:50%;
+outline: none;
+}
+
+.closeImg{
+    background: url(../images/close.png);
+    background-repeat: no-repeat;
+    float:right;
+    height: 40px;
+    width: 40px;
+}

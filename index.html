@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="messageApp">
+<head>
+    <meta charset="UTF-8">
+    
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app/css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+<div class="mainheader">
+      <div class="container">
+          <div class="row">
+            <div class="topnav col-xs-12 col-sm-12 col-md-6 col-lg-6">
+           <a href="#">Chattin</a>
+            </div>
+         </div>
+    </div>
+</div>
+    
+    <div ng-controller="indexController" class="chatGroup">
+            <form ng-submit="Messenger()">
+              <input type="text" placeholder="your name" required ng-model="user" class="form-control chatInput" style="float:left"/>
+                </br></br>
+              <input type="submit" class="btn" value="Start Messeging" style="margin-top:2%;">
+           </form>
+       </div>
+</div>
+    
+    <script src="app/js/angular.min.js"></script>
+	<script src="app/js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <script src="app/js/ngStorage.js"></script>
+	<script src="app/app.js"></script>
+</body>
+</html>
+
