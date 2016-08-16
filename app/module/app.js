@@ -1,0 +1,1 @@
+var messageApp = angular.module('messageApp', ['ui.bootstrap', 'ngStorage']);
