@@ -1,1 +1,0 @@
-var messageApp = ('messageApp', ['ui.bootstrap', 'ngStorage']);
